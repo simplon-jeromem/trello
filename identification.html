@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <style>
+            #titre{
+                background-color: aqua;
+                color: crimson;
+                font-size: 20px;
+            }
+            body{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            #conteneur{
+                text-align: center;
+                width: 200px;
+                height: 150px;
+                border-width: 5px;
+                border-color: aqua;
+                border-style: solid;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div id="conteneur">
+            <div id="titre"> identification </div>
+            <div id="contenu">
+                <form action="identification.php" method="post">
+                    <label>nom</label><input name="nom"></input>
+                    <label>mot de passe</label><input name="mdp"></input>
+                    <div><button type="submit">valider</button></div>
+                    
+                </form>
+            </div>
+        </div>
+    </body>
+</html>    
